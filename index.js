@@ -1,19 +1,7 @@
-var animal = 'dog'
 
-function myAnimal() {
-  return animal
-}
+var funkyFunction = function() {
 
-function yourAnimal() {
-  var animal = 'cat'
-  // and the above function both pass?
-  // P.S.: You can't just hard-code 'cat' below
-  return animal
-}
-
-
-function add2(n) {
-  const two = 2
-  return n + two;
-
-}
+// We want to set theFunk equal to "FUNKY!" using our funkyFunction.
+// NOTE: you only need to modify the code below this line.
+var theFunk = funkyFunction()
+var theFunk = "FUNKY!"
